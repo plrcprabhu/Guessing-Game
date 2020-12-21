@@ -12,7 +12,7 @@ def restart():
        global tf
        global msg
        no_of_chances=10
-       points=0
+       points=10
        rand_num=random.randrange(1,101,1)
        tf=Entry(root,text="")
        gs_btn=Button(root,text="Guess",command=lambda : guess(1,int(tf.get())))
